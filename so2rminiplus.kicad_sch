@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SO2R MiniPlus")
-		(date "2025-12-18")
-		(rev "Rev 2b")
+		(date "2025-12-28")
+		(rev "Rev 2c")
 		(company "DJ5CW / SO5CW")
 	)
 	(lib_symbols
@@ -5430,6 +5430,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "14380277-d678-4e96-94e7-2e7cff5606aa")
 	)
@@ -5472,16 +5473,6 @@
 			(type default)
 		)
 		(uuid "1bb5d079-bf7c-43f0-a8ca-a21def48a5d6")
-	)
-	(wire
-		(pts
-			(xy 96.52 167.64) (xy 104.14 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5de6e0-a1cb-4e3e-8a44-6ce0aa27f592")
 	)
 	(wire
 		(pts
@@ -5592,16 +5583,6 @@
 			(type default)
 		)
 		(uuid "271988ed-9196-4702-825d-c42a75c0deba")
-	)
-	(wire
-		(pts
-			(xy 96.52 162.56) (xy 105.41 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d7d7a3-fc2f-4656-bf0f-8e1fd0c71d9e")
 	)
 	(wire
 		(pts
@@ -5780,6 +5761,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "3bc9408a-ed46-42b4-8437-b71c1f5681e8")
 	)
@@ -5830,6 +5812,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "3f00c8a6-8e83-494b-a506-e7837ce421c7")
 	)
@@ -5912,6 +5895,17 @@
 			(type default)
 		)
 		(uuid "46d3ef24-8888-4861-bdb9-f92d87a68baa")
+	)
+	(wire
+		(pts
+			(xy 104.14 162.56) (xy 96.52 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 9 0 255 1)
+		)
+		(uuid "4e12f550-336e-4ba8-834d-29a8f81bb6b2")
 	)
 	(wire
 		(pts
@@ -6320,6 +6314,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "789302e9-a15a-4b00-8d50-e67acd5275aa")
 	)
@@ -6342,6 +6337,16 @@
 			(type default)
 		)
 		(uuid "7a65884a-90c5-46b4-970a-cd29f79dc438")
+	)
+	(wire
+		(pts
+			(xy 105.41 167.64) (xy 105.41 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf5a08d-b954-4790-8828-88893f0081ad")
 	)
 	(wire
 		(pts
@@ -6580,6 +6585,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "9b944300-0af8-4521-8ea0-0c9e59680305")
 	)
@@ -6835,11 +6841,12 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 167.64) (xy 104.14 177.8)
+			(xy 104.14 162.56) (xy 104.14 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "bb8985e0-dc91-4266-a91e-843a587801aa")
 	)
@@ -6900,6 +6907,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "c0f06fe1-4ef2-4860-a014-124ef507c1ec")
 	)
@@ -7140,6 +7148,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "d5f0f843-2b83-4e4a-89d2-ae5afe109691")
 	)
@@ -7172,16 +7181,6 @@
 			(type default)
 		)
 		(uuid "d957369a-5e6f-4fe7-b460-103e604b2dc1")
-	)
-	(wire
-		(pts
-			(xy 105.41 162.56) (xy 105.41 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9dc26a7-7963-4876-ae5e-b74642871abc")
 	)
 	(wire
 		(pts
@@ -7235,6 +7234,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 167.64) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a04d2c-0d6f-4f98-8b23-eac6be7dc0ad")
+	)
+	(wire
+		(pts
 			(xy 81.28 13.97) (xy 134.62 13.97)
 		)
 		(stroke
@@ -7250,6 +7259,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "e5655294-a0f8-4cab-9bad-f1845ed130a5")
 	)
@@ -7270,6 +7280,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "e6629658-d541-49a1-98dd-98992399c9e2")
 	)
@@ -7430,6 +7441,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 9 0 255 1)
 		)
 		(uuid "f2a8321a-adbf-4e95-9945-d95dad6f7495")
 	)
